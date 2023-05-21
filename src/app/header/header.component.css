@@ -1,0 +1,61 @@
+
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  margin-top: 2vh 0;
+  font-family: 'Star Jedi', arial;
+  font-size: 20px;
+  align-items: last baseline;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.nav li {
+  margin: 0 1%;
+}
+
+.nav li a {
+  text-decoration: none;
+}
+
+a {
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: 'Star Jedi', arial;
+  font-weight: 200;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+a:focus:after,
+a:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+a:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+

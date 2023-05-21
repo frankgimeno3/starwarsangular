@@ -1,0 +1,115 @@
+.filterSection {
+  background-color: rgb(40, 40, 40);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.filterSection h2 {
+  background-color: rgb(40, 40, 40);
+}
+
+.filterSection ul{
+  background-color: rgb(40, 40, 40);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  height: 50px;
+}
+
+li {list-style: none;
+  background-color: rgb(40, 40, 40);
+}
+
+a{
+text-decoration: none;
+}
+
+.bluebutton {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffff80;
+  text-shadow: none;
+  background: transparent;
+  box-shadow: transparent;
+  border: 1px solid #ffffff80;
+  transition: 0.5s ease;
+  user-select: none;
+}
+
+#bluebutton:hover,:focus {
+  color: #ffffff;
+  background: #008cff;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff,
+              0 0 10px #ffffff,
+              0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff,
+              0 0 20px #008cff,
+              0 0 50px #008cff,
+              0 0 100px #008cff;
+}
+
+.whitebutton {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffff80;
+  text-shadow: none;
+  background: transparent;
+  box-shadow: transparent;
+  border: 1px solid #ffffff80;
+  transition: 0.5s ease;
+  user-select: none;
+}
+
+#whitebutton:hover,:focus {
+  color: #ffffff;
+  background: #ffffff;
+  border: 1px solid #c7c7c7;
+  text-shadow: 0 0 5px #9a9a9a,
+              0 0 10px #9a9a9a,
+              0 0 20px #9a9a9a;
+  box-shadow: 0 0 5px #ffffff,
+              0 0 20px #ffffff,
+              0 0 50px #ffffff,
+              0 0 100px #ffffff;
+}
+
+.redbutton {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffff80;
+  text-shadow: none;
+  background: transparent;
+  box-shadow: transparent;
+  border: 1px solid #ffffff80;
+  transition: 0.5s ease;
+  user-select: none;
+}
+
+#redbutton:hover,:focus {
+  color: #ffffff;
+  background: #9c0538;
+  border: 1px solid #9c0538;
+  text-shadow: 0 0 5px #ffffff,
+              0 0 10px #ffffff,
+              0 0 20px #ffffff;
+  box-shadow: 0 0 5px #c50a49,
+              0 0 20px #c50a49,
+              0 0 50px #c50a49,
+              0 0 100px #c50a49;
+}

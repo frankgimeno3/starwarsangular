@@ -37,7 +37,7 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
     HttpClientModule
   ],
-  providers: [StarWarsService, LogService],
+  providers: [StarWarsService,LogService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,13 +1,14 @@
-<div>
-  <ul class="nav nav-tabs">
+<div class="filterSection">
+  <h2> Filter by Side </h2>
+    <ul>
     <li role="presentation" routerLinkActive="active">
-      <a routerLink="/characters/all">All</a>
+      <a routerLink="/characters/all" class="bluebutton" id="bluebutton">All</a>
       </li>
     <li role="presentation" routerLinkActive="active">
-      <a routerLink="/characters/light">Light</a>
+      <a routerLink="/characters/light" class="whitebutton" id="whitebutton">Light</a>
       </li>
     <li role="presentation" routerLinkActive="active">
-      <a routerLink="/characters/dark">Dark</a>
+      <a routerLink="/characters/dark" class="redbutton" id="redbutton">Dark</a>
       </li>
   </ul>
   <router-outlet></router-outlet>
