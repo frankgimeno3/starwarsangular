@@ -1,5 +1,27 @@
+div{
+  background-color: rgb(7, 7, 7);
+}
+
+.list-group-item{
+border: #008cff;
+border-radius: 15px;
+color: #FFFFFF;
+letter-spacing: 0.3em;
+text-shadow: 2px 2px 5px #008cff;
+background-color: rgb(7, 7, 7);
+border: 2px solid #FFFFFF;
+width: 50%;
+padding: 0.5em 2em 0.5em 2.5em;
+margin: auto;
+margin-bottom: 1vw;
+display: block;
+justify-content: center;
+text-align: center;
+}
+
 h4{
   font-size: 1.2em;
+  background-color: rgb(7, 7, 7);
 
 }
 .btn {
@@ -10,7 +32,7 @@ h4{
   color: #FFFFFF;
   letter-spacing: 0.3em;
   text-shadow: -2px 2px 5px #008cff;
-  background-color: transparent;
+  background-color: rgb(7, 7, 7);
   border: 2px solid #FFFFFF;
   box-shadow: 0 0 0px 1px #008cff,
     0 0 10px 2px #008cff,
@@ -49,7 +71,7 @@ h4{
   color: #fff6fb;
   letter-spacing: 0.3em;
   text-shadow: -2px 2px 5px #FD3084;
-  background-color: transparent;
+  background-color: rgb(7, 7, 7);
   border: 2px solid #FEB1DE;
   box-shadow: 0 0 0px 1px #F11271,
     0 0 10px 2px #FD3084,

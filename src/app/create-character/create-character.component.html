@@ -1,4 +1,6 @@
-<form (ngSubmit)="onSubmit(form)" #form="ngForm">
+<div class="list-group-item">
+  <h2>Create a Character</h2>
+  <form (ngSubmit)="onSubmit(form)" #form="ngForm">
   <div class="form-group">
     <label for="name">Character Name</label>
     <input
@@ -20,5 +22,6 @@
       </option>
     </select>
   </div>
-  <button class="btn btn-primary" type="submit" [disabled]="form.invalid">Add Character</button>
+  <button class="whitebutton" type="submit" [disabled]="form.invalid">Add Character</button>
 </form>
+</div>
