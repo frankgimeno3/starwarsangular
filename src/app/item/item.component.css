@@ -4,19 +4,20 @@ h4{
 }
 .btn {
   padding: 0.5em 2em 0.5em 2.5em;
-  font-size: 0.5em;
+  font-size: 0.8em;
   font-weight: bold;
   border-radius: 15px;
-  color: #fff6fb;
+  color: #FFFFFF;
   letter-spacing: 0.3em;
   text-shadow: -2px 2px 5px #008cff;
   background-color: transparent;
-  border: 2px solid #FEB1DE;
+  border: 2px solid #FFFFFF;
   box-shadow: 0 0 0px 1px #008cff,
     0 0 10px 2px #008cff,
     inset 0 0 0px 1px #008cff,
     inset 0 0 10px 2px #008cff;
   transition: 100ms;
+  margin: 1vw;
 }
 
 .btn:hover {
@@ -26,6 +27,8 @@ h4{
     inset 0 0 30px 2px #008cff;
   text-shadow: 0 0 10px #008cff;
   transform: translateY(-5px);
+  margin: 1vw;
+
 }
 
 .btn:active {
@@ -34,11 +37,13 @@ h4{
     inset 0 0 0px 1px #008cff,
     inset 0 0 30px 2px #008cff;
   transform: translateY(1px);
+  margin: 1vw;
+
 }
 
 .btn2 {
   padding: 0.5em 2em 0.5em 2.5em;
-  font-size: 0.5em;
+  font-size: 0.8em;
   font-weight: bold;
   border-radius: 15px;
   color: #fff6fb;
@@ -51,6 +56,8 @@ h4{
     inset 0 0 0px 1px #F11271,
     inset 0 0 10px 2px #FD3084;
   transition: 100ms;
+  margin: 1vw;
+
 }
 
 .btn2:hover {
@@ -60,6 +67,8 @@ h4{
     inset 0 0 30px 2px #FD3084;
   text-shadow: 0 0 10px #FD3084;
   transform: translateY(-5px);
+  margin: 1vw;
+
 }
 
 .btn2:active {
@@ -68,4 +77,6 @@ h4{
     inset 0 0 0px 1px #F11271,
     inset 0 0 30px 2px #FD3084;
   transform: translateY(1px);
+  margin: 1vw;
+
 }

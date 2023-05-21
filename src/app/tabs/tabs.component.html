@@ -1,15 +1,15 @@
 <div class="filterSection">
   <h2> Filter by Side </h2>
     <ul>
-    <li role="presentation" routerLinkActive="active">
-      <a routerLink="/characters/all" class="bluebutton" id="bluebutton">All</a>
+      <li role="presentation" routerLinkActive="active">
+        <a routerLink="/characters/light" class="bluebutton" id="bluebutton">Light Side</a>
       </li>
-    <li role="presentation" routerLinkActive="active">
-      <a routerLink="/characters/light" class="whitebutton" id="whitebutton">Light</a>
+      <li role="presentation" routerLinkActive="active" >
+        <a routerLink="/characters/all" class="whitebutton" id="whitebutton" >All Sides</a>
       </li>
-    <li role="presentation" routerLinkActive="active">
-      <a routerLink="/characters/dark" class="redbutton" id="redbutton">Dark</a>
+      <li role="presentation" routerLinkActive="active">
+        <a routerLink="/characters/dark" class="redbutton" id="redbutton">Dark Side</a>
       </li>
-  </ul>
+    </ul>
   <router-outlet></router-outlet>
 </div>
